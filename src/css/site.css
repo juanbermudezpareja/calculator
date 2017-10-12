@@ -1,0 +1,28 @@
+body {
+	width: 300px;
+	margin: 0 auto;
+	background-color: grey;
+}
+.span{
+  min-height: 70px;
+	float: left;
+	margin-right: 2.25%;
+	margin-bottom: 2.25%;
+	width: 22.75%;
+	background-color: aqua;
+	font-size: 3em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 70px;
+}
+
+.calcDisplay{
+	min-height: 70px;
+	float: left;
+	background-color: aqua;
+	text-align: right;
+	width: 97.75%;
+	margin-bottom: 2.25%;
+	vertical-align: middle;
+  font-size: 3em;
+}
