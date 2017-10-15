@@ -1,3 +1,4 @@
+import {Calculator} from './calculator';
 
 // Calculator display
 let display = '';
@@ -21,27 +22,9 @@ function operationPressed(e){
 
 function result (){
     operator2 = display;
-    let result;
-    switch (operation) {
-        case '+':
-            result = parseFloat(operator1) + parseFloat(operator2);
-            break;
-        case '-':
-            result = parseFloat(operator1) - parseFloat(operator2);
-            break;
-        case '*':
-            result = parseFloat(operator1) * parseFloat(operator2);
-            break;
-        case '/':
-            result = parseFloat(operator1) / parseFloat(operator2);
-            break;        
-        default:
-            break;
-    }
-    console.log(parseFloat(operator1));
-    console.log(parseFloat(operator2));
-    console.log(result);
-    document.getElementById('calcDisplay').innerText = result;
+    let calculator = new Calculator(operator1,operator2,operation);
+    
+    document.getElementById('calcDisplay').innerText = calculator.getResult();;
     display = '';
     operator1 = '';
     operator2 = '';
