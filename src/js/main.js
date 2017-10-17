@@ -1,7 +1,7 @@
-import {Calculator} from './calculator';
+var Calculator = require('./calculator');
 
 // Calculator display
-let display = '';
+let display = '';cvarvarvarkdklfadsjkadsfñjk
 let operator1 = '';
 let operator2 = '';
 let operation = '';

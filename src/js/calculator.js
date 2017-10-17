@@ -1,4 +1,4 @@
-export function Calculator(operator1,operator2,operation){
+function Calculator(operator1,operator2,operation){
     this.operator1 = operator1;
     this.operator2 = operator2;
     this.operation = operation;
@@ -25,4 +25,6 @@ Calculator.prototype.getResult =
         }
         console.log(`Operation result ${result}`);
         return result;
-    }
+    };
+
+    module.exports.Calculator = Calculator;

@@ -1,15 +1,18 @@
 {
   "name": "calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic calculator",
   "main": "index.js",
   "scripts": {
+    "start": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-connect": "^5.0.0"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.7.1"
   }
 }
