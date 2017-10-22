@@ -1,7 +1,7 @@
 var Calculator = require('./calculator');
 
 // Calculator display
-let display = '';cvarvarvarkdklfadsjkadsfñjk
+let display = '';
 let operator1 = '';
 let operator2 = '';
 let operation = '';

@@ -1,11 +1,2 @@
-node_modules/.bin/gulp
-node_modules/.bin/mime
-node_modules/.bin/mkdirp
-node_modules/.bin/user-home
-node_modules/.bin/which
-node_modules/.bin/window-size
-node_modules/accepts/HISTORY.md
-node_modules/accepts/index.js
-node_modules/accepts/LICENSE
-node_modules/accepts/package.json
-node_modules/accepts/README.md
+node_modules/
+dist/
