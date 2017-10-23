@@ -1,4 +1,7 @@
-var Calculator = require('./calculator');
+//var Calculator = require('./js/calculator');
+
+import {} from './button';
+import {} from './button';
 
 // Calculator display
 let display = '';
