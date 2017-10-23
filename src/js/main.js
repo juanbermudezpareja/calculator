@@ -1,7 +1,10 @@
 //var Calculator = require('./js/calculator');
 
-import {} from './button';
-import {} from './button';
+import {Calculator} from './Calculator';
+
+// Initialization of the calculator
+const myCalculator = new Calculator();
+
 
 // Calculator display
 let display = '';

@@ -10,7 +10,7 @@ module.exports = {
         extensions: ['.js','.ts','.scss'],
     },
     entry: {
-        app: ['./js/calculator.js','./js/main.js'],
+        app: ['./js/main.js','./js/Calculator.js','./js/Button.js','./js/OperationButton.js','./js/NumericButton.js','./js/ResultButton.js'],
         appStyles: [
             './css/site.scss',
         ],
