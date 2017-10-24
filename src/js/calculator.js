@@ -37,14 +37,14 @@ export class Calculator{
     }
     resetDisplay(){
         this.display = '';
-        document.getElementById('calcDisplay').innerText = '';
+        document.getElementById('calcDisplay').innerText = this.display;
     }
     setOperation(oper){
         this.operation = oper;
         this.operator1 = this.display;
         this.display = '';
-        
     }
+    
     getResult(){
         this.operator2 = this.display;
         let result = 0;
@@ -61,6 +61,9 @@ export class Calculator{
             break;
         }
         console.log(result);
-            document.getElementById('calcDisplay').innerText = result;
+        console.log(this.operation);
+        console.log(result);
+        this.display = result;
+        document.getElementById('calcDisplay').innerText = this.display;
     }
 }

@@ -1,10 +1,12 @@
 export class Button {
-    constructor(calc) {
+    constructor(calc,div) {
         // Reference to the Calculator
         this.calc = calc;
-        console.log("Initialization of button: " + this);
+        
+        // DIV element for a generic button
+        div.addEventListener("click", (e) => { this.onClick(e); });
     }
     onClick(evt) {
-        console.info("In onClick: this = %o", evt); 
+        console.info("OnClick event: this = %o", evt); 
     }
 }
