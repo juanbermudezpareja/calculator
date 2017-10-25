@@ -3,6 +3,7 @@ import {OperationButton} from './OperationButton';
 import {NumericButton} from './NumericButton';
 import {ResetButton} from './ResetButton';
 import {ResultButton} from './ResultButton';
+import {CommaButton} from './CommaButton';
 
 export class Calculator{
     constructor(){
@@ -29,6 +30,9 @@ export class Calculator{
 
         // RESULT BUTTON
         this.resultButton = new ResultButton(this,document.getElementById('result'));
+
+        // COMMA BUTTON
+        this.commaButton = new CommaButton(this, document.getElementById('comma'));
     }
     addDigitDisplay(digit){
         this.display = parseInt(this.display + digit);
