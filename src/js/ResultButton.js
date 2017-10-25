@@ -7,6 +7,6 @@ export class ResultButton extends Button{
  
     onClick(evt) {    
         super.onClick(evt);
-        this.calc.getResult(); 
+        this.calc.result(); 
     }
 }

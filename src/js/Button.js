@@ -7,6 +7,7 @@ export class Button {
         div.addEventListener("click", (e) => { this.onClick(e); });
     }
     onClick(evt) {
-        console.info("OnClick event: this = %o", evt); 
+        console.info(`Ac: ${this.calc.accumulator} \nDisplay: ${this.calc.display} \nOperator: ${this.calc.operation}`); 
+        
     }
 }
